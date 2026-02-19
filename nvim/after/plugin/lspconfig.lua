@@ -24,6 +24,7 @@ local on_attach = function(client, bufnr)
 end
 
 vim.lsp.enable("clangd")
+vim.lsp.enable("pyright")
 
 vim.diagnostic.config({
     update_in_insert = true,

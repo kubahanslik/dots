@@ -19,4 +19,5 @@ vim.opt.termguicolors = true
 vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
 
+vim.o.autoread = true
 vim.opt.updatetime = 50
