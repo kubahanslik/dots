@@ -6,6 +6,7 @@ return {
 
         vim.lsp.config('pyright', { capabilities = capabilities })
         vim.lsp.config('clangd', { capabilities = capabilities })
+        vim.lsp.config('haskell-language-server', { capabilities = capabilities })
         vim.lsp.config('rust_analyzer', {
             settings = {
                 ['rust-analyzer'] = {
