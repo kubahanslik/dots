@@ -26,7 +26,9 @@ end
 vim.lsp.enable("clangd")
 vim.lsp.enable("pyright")
 vim.lsp.enable('rust_analyzer')
-vim.lsp.enable('haskell-language-server')
+vim.lsp.enable('hls')
+vim.lsp.enable('bash-language-server')
+vim.lsp.enable('typescript-language-server')
 
 vim.diagnostic.config({
     update_in_insert = true,

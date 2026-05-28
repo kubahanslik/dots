@@ -5,7 +5,7 @@ return {
     build = ':TSUpdate',
 
     config = function()
-        require('nvim-treesitter').install({ 'c', 'cpp', 'lua', 'python', 'javascript', 'typescript', 'bash', 'rust', 'zig', 'haskell', 'java', 'php' })
+        require('nvim-treesitter').install({ 'bash', 'c', 'cpp', 'lua', 'python', 'javascript', 'typescript', 'bash', 'rust', 'zig', 'haskell', 'java', 'php' })
 
         vim.api.nvim_create_autocmd('FileType', {
             pattern = { '<filetype>' },
